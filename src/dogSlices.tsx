@@ -39,7 +39,7 @@ const breedsSlice = createSlice({
       })
       .addCase(fetchBreeds.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message || "Lỗi fetch rồi";
+        state.error =  action.error.message || "Lỗi fetch rồi";
       });
   },
 });
