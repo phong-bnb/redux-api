@@ -23,7 +23,7 @@ const BreedsComponent= () => {
       <h1>Dog Breeds</h1>
       <ul>
         {breeds.map((breed, index) => (
-          <li key={index}>{breed}</li>
+        <li key={index}>{JSON.stringify(breed)}</li>
         ))}
       </ul>
     </div>
